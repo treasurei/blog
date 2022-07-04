@@ -1,0 +1,179 @@
+/* 左浮动 */
+.y {
+    float: right;
+
+}
+
+/* 右浮动 */
+.z {
+    float: left;
+}
+
+/* 居中 */
+.jvzhong {
+    margin: 0 auto;
+
+}
+
+.dd {
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f5;
+}
+
+/* 顶部盒子 */
+/* 头部 开始*/
+.dinbu {
+    background-color: black;
+    ;
+    width: 100%;
+    height: 50px;
+}
+
+.xiaohezhi {
+    width: 95%;
+    height: 50px;
+
+}
+
+.dinbu .xiaohezhi li {
+    height: 50px;
+    margin: 0 10px;
+}
+
+.dinbu .xiaohezhi li a {
+    color: #fff;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+/* 文字图标 */
+.dinbu .xiaohezhi .wx {
+    color: #fff;
+    font-size: 30px;
+    line-height: 50px;
+    margin: 0 10px;
+}
+
+/* 搜索 */
+.sosuo {
+    float: right;
+    width: 156px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 16px;
+    background-color: #d8d9d9;
+}
+
+.sosuo input {
+    margin-left: 10px;
+    width: 110px;
+    height: 30px;
+    background-color: #d8d9d9;
+
+}
+
+.daohanglan .sosuo button {
+    width: 35px;
+    height: 30px;
+    float: right;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #d8d9d9;
+}
+
+/* 头部结束 */
+
+/* 固定剧中的大盒子 */
+/* .gudin{
+    width: 2368px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: rgb(134, 49, 49);
+} */
+
+/* 导航栏开始 */
+.nav {
+    width: 95%;
+    height: 90px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+}
+
+.nav li {
+    margin: 0 20px;
+}
+
+.logo img {
+    width: 90px;
+    float: left;
+    height: 90px;
+
+}
+
+.nav .xxi a {
+    float: right;
+    line-height: 90px;
+    margin: 0 20px;
+    color: black;
+    font-size: 18px;
+}
+
+/* 导航栏结束 */
+
+/* 大图 */
+.da {
+    width: 100%;
+    height: 270px;
+    /* background-color: rgb(218, 52, 52); */
+}
+
+.datu {
+    width: 100%;
+    height: 100%;
+}
+
+.dd .da .datu {
+    background-image: url(../img/星空\ 路风景\ 4k壁纸3840x2160_彼岸图网.jpg);
+    background-position-y: -1527px;
+    background-position-x: -77px;
+    background-repeat: no-repeat;
+
+}
+
+/* 大图结束 */
+
+
+/* 内容开始 */
+
+.nron {
+    width: 90%;
+    height: 900px;
+    padding-top: 15px;
+
+}
+
+.guding {
+    width: 80%;
+    height: 350px;
+}
+
+.nron .hezhi {
+    width: 15%;
+    height: 315px;
+    margin: 0 0.8%;
+    float: left;
+    /* padding-top: 15px; */
+}
+
+.nron .hezhi .tupin01 a img {
+    width: 100%;
+}
+
+/* .zti{
+    width: 90px;
+} */
+.zti a {
+    font-size: 20px;
+    text-align: center;
+}
