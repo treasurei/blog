@@ -277,3 +277,38 @@ LOGGING = {
         },
     },
 }
+# 替换 系统的User 使用自己的User
+# 配置信息为 ‘子应用名，模型类型’
+AUTH_USER_MODEL = 'users.USER'
+
+# # 缓存配置
+# CACHES = {
+#     # django存缓默认位置,redis 0号库
+#     # default: 连接名称
+#     "default": {
+#         "BACKEND": "django_redis.cache.RedisCache",
+#         "LOCATION": "redis://127.0.0.1:6379/0",
+#         "OPTIONS": {
+#             "CLIENT_CLASS":"django_redis.client.DefaultClient",
+#         }
+#     },
+#     # django session存 reidis 1 号库（现在基本不需要使用）
+#     "session": {
+#         "BACKEND": "django_redis.cache.RedisCache",
+#         "LOCATION": "redis://127.0.0.1:6379/1",
+#         "OPTIONS": {
+#             "CLIENT_CLASS":"django_redis.client.DefaultClient",
+#         }
+#     },
+#     # 图形验证码，存redis 2号库
+#     "img_code": {
+#         "BACKEND": "django_redis.cache.RedisCache",
+#         "LOCATION": "redis://127.0.0.1:6379/2",
+#         "OPTIONS": {
+#             "CLIENT_CLASS":"django_redis.client.DefaultClient",
+#         }
+#     }
+# }
+# # 配置session使用redis存储
+# SESSION_ENGINE = "django.contrib.sessions.backends.cache" # 配置session存储的位置: 使用cache中的 session配置
+# SESSION_CACHE_ALIAS = "session"
